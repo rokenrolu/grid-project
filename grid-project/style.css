@@ -1,0 +1,18 @@
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+body{
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
